@@ -4,6 +4,7 @@
   "description": "O Agenda Simples para gerenciar agendamentos entre clientes e prestadores de serviço.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/sidineiramossilva/agenda-simples-api/issues"
   },
-  "homepage": "https://github.com/sidineiramossilva/agenda-simples-api#readme"
+  "homepage": "https://github.com/sidineiramossilva/agenda-simples-api#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-ui-express": "^5.0.1"
+  }
 }
